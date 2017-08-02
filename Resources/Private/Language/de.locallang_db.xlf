@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2017-07-28T12:48:53Z" product-name="dd_snippets">
+		<header/>
+		<body>
+			<trans-unit id="tx_dd_snippets_domain_model_pi1">
+				<source>Code Snippets</source>
+				<target>Code Snippets</target>
+			</trans-unit>
+			<trans-unit id="tx_dd_snippets_domain_model_pi1.description">
+				<source>Simple Code Snippet Extension based on Prism.js (http://prismjs.com) Plugin for jQuery</source>
+				<target>Einfache Code Snippet Extension, die auf dem jQUery Plugin Prism.js basiert (http://prismjs.com)</target>
+			</trans-unit>
+			
+			<trans-unit id="flexform.snippet">
+				<source>Code Snippet</source>
+				<target>Code Snippet</target>
+			</trans-unit>
+			<trans-unit id="flexform.snippetpreview">
+				<source>Code Snippet Preview (cropped)</source>
+				<target>Code Snippet Vorschau (gekürzt)</target>
+			</trans-unit>
+			<trans-unit id="flexform.syntax">
+				<source>Language for syntax highlighting</source>
+				<target>Sprache für das Syntax Highlighting</target>
+			</trans-unit>
+			
+			<trans-unit id="flexform.pluginsettings">
+				<source>Plugin Settings</source>
+				<target>Plugin Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="flexform.choose">
+				<source>Choose a language</source>
+				<target>Wähle eine Sprache</target>
+			</trans-unit>
+			<trans-unit id="flexform.csstheme">
+				<source>Prism CSS Theme</source>
+				<target>Prism CSS Theme</target>
+			</trans-unit>
+			<trans-unit id="flexform.linenumbers">
+				<source>Show line numbers</source>
+				<target>Zeilennummerierung</target>
+			</trans-unit>
+			<trans-unit id="flexform.linenumbersactive">
+				<source>Show line numbers?</source>
+				<target>Zeilennummerierung anzeigen?</target>
+			</trans-unit>
+			<trans-unit id="flexform.highlightlines">
+				<source>Highlighted line numbers (e.g. 5 or 1,5 or 1-2,6-10 ...)</source>
+				<target>Hervorgehobene Zeilen (z.B. 5 or 1,5 or 1-2,6-10 ...)</target>
+			</trans-unit>
+			<trans-unit id="flexform.highlightlinesactive">
+				<source>Zeilen hervorheben?</source>
+				<target></target>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>

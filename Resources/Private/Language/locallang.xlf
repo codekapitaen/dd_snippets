@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-07-28T12:48:53Z" product-name="dd_snippets">
+		<header/>
+		<body>
+			<trans-unit id="tx_dd_snippets_domain_model_pi1">
+				<source>Code Snippets</source>
+			</trans-unit>
+			<trans-unit id="tx_dd_snippets_domain_model_pi1.description">
+				<source>Simple Code Snippet Extension based on Prism.js (http://prismjs.com) Plugin for jQuery</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

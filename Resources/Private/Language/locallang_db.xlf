@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-07-28T12:48:53Z" product-name="dd_snippets">
+		<header/>
+		<body>
+			<trans-unit id="tx_dd_snippets_domain_model_pi1">
+				<source>Code Snippets</source>
+			</trans-unit>
+			<trans-unit id="tx_dd_snippets_domain_model_pi1.description">
+				<source>Simple Code Snippet Extension based on Prism.js (http://prismjs.com)</source>
+			</trans-unit>
+			
+			<trans-unit id="flexform.snippet">
+				<source>Code Snippet</source>
+			</trans-unit>
+			<trans-unit id="flexform.snippetpreview">
+				<source>Code Snippet Preview (cropped)</source>
+			</trans-unit>
+			<trans-unit id="flexform.syntax">
+				<source>Language for syntax highlighting</source>
+			</trans-unit>
+			
+			<trans-unit id="flexform.pluginsettings">
+				<source>Plugin Settings</source>
+			</trans-unit>
+			<trans-unit id="flexform.choose">
+				<source>Choose a language</source>
+			</trans-unit>
+			<trans-unit id="flexform.csstheme">
+				<source>Prism CSS Theme</source>
+			</trans-unit>
+			<trans-unit id="flexform.linenumbers">
+				<source>Show line numbers</source>
+			</trans-unit>
+			<trans-unit id="flexform.linenumbersactive">
+				<source>Show line numbers?</source>
+			</trans-unit>
+			<trans-unit id="flexform.highlightlines">
+				<source>Highlighted line numbers (e.g. 5 or 1,5 or 1-2,6-10 ...)</source>
+			</trans-unit>
+			<trans-unit id="flexform.highlightlinesactive">
+				<source>Highlighting lines?</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,44 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+	  xmlns:dd="http://typo3.org/ns/Codekapitaen/DdSnippets/ViewHelpers"
+	  data-namespace-typo3-fluid="true">
+
+	<p>{core:icon(identifier:'extension-dd_snippets-main')} <strong><f:translate key="LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:tx_dd_snippets_domain_model_pi1" /></strong></p>
+	
+	<f:for each="{dd:flex(argument: pi_flexform)}" as="item">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">{core:icon(identifier:'actions-file-html')} <f:translate key="LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:flexform.snippetpreview" /></h3>
+			</div>
+			<div class="panel-body">
+				<pre>{item.snippet -> f:format.crop(maxCharacters: 150)}</pre>
+			</div>
+		</div>
+		
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">{core:icon(identifier:'actions-system-extension-configure')} <f:translate key="LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:flexform.pluginsettings" /></h3>
+			</div>
+			<div class="panel-body">
+				
+				<table class="table table-condensed table-bordered table-hover">
+					<tr>
+						<td><strong><f:translate key="LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:flexform.syntax" /></strong></td>
+						<td colspan="3">
+							{dd:syntax(argument: item.syntax)}
+						</td>
+					</tr>
+					<tr>
+						<td style="width: 45%;"><strong><f:translate key="LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:flexform.linenumbersactive" /></strong></td>
+						<td><f:if condition="{item.linenumbers} != 0"><f:then>{core:icon(identifier:'actions-check')}</f:then><f:else>{core:icon(identifier:'actions-close')}</f:else></f:if></td>
+					
+						<td style="width: 45%;"><strong><f:translate key="LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:flexform.highlightlinesactive" /></strong></td>
+						<td><f:if condition="{item.highlightlines} != ''"><f:then>{core:icon(identifier:'actions-check')}</f:then><f:else>{core:icon(identifier:'actions-close')}</f:else></f:if></td>
+					</tr>
+				</table>
+				
+			</div>
+		</div>
+	
+	</f:for>
+
+</html>
