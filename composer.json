@@ -1,0 +1,19 @@
+{
+    "name": "codekapitaen/dd-snippets",
+    "type": "typo3-cms-extension",
+    "description": "Simple Code Snippet Extension based on Prism.js (http://prismjs.com) Plugin for jQuery",
+    "author": [
+        {
+            "name": "Dennis Donzelmann",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codekapitaen\\DdSnippets\\": "Classes"
+        }
+    }
+}

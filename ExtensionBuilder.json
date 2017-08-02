@@ -1,0 +1,89 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    30,
+                    50
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Snippet",
+                "objectsettings": {
+                    "addDeletedField": false,
+                    "addHiddenField": false,
+                    "addStarttimeEndtimeFields": false,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "416528863954"
+                },
+                "propertyGroup": {
+                    "properties": []
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Simple Code Snippet Extension. Based on Prism.js (http:\/\/prismjs.com)",
+        "emConf": {
+            "category": "fe",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "stable",
+            "targetVersion": "8.6.0-8.6.99",
+            "version": "3.0.0"
+        },
+        "extensionKey": "dd_snippets",
+        "name": "Code Snippets",
+        "originalExtensionKey": "dd_snippets",
+        "originalVendorName": "Codekapitaen",
+        "persons": [
+            {
+                "company": "",
+                "email": "ahoi@codekapitaen.de",
+                "name": "Dennis Donzelmann",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Snippet => list",
+                    "noncacheableActions": "",
+                    "switchableActions": "What\nSnippet->list;"
+                },
+                "key": "pi1",
+                "name": "Code Snippets"
+            }
+        ],
+        "vendorName": "Codekapitaen"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2017-07-28 12:48",
+        "extension_builder_version": "8.6.0",
+        "be_user": " (2)"
+    }
+}

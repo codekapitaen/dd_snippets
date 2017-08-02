@@ -1,0 +1,557 @@
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Function</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.syntax>
+						<TCEforms>
+							<label>LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:flexform.syntax</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:flexform.choose</numIndex>
+										<numIndex index="1">none</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">HTML</numIndex>
+										<numIndex index="1">html</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">CSS</numIndex>
+										<numIndex index="1">css</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">JavaScript</numIndex>
+										<numIndex index="1">javascript</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">XML</numIndex>
+										<numIndex index="1">xml</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">PHP</numIndex>
+										<numIndex index="1">php</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">SQL</numIndex>
+										<numIndex index="1">sql</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">ABAP</numIndex>
+										<numIndex index="1">abap</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">ActionScript</numIndex>
+										<numIndex index="1">actionscript</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">Apache Configuration</numIndex>
+										<numIndex index="1">apacheconf</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">AppleScript</numIndex>
+										<numIndex index="1">applescript</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">AsciiDoc</numIndex>
+										<numIndex index="1">asciidoc</numIndex>
+									</numIndex>
+									<numIndex index="13" type="array">
+										<numIndex index="0">ASP.NET (C#)</numIndex>
+										<numIndex index="1">aspnet</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">AutoIt</numIndex>
+										<numIndex index="1">autoit</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">AutoHotkey</numIndex>
+										<numIndex index="1">autohotkey</numIndex>
+									</numIndex>
+									<numIndex index="16" type="array">
+										<numIndex index="0">Bash</numIndex>
+										<numIndex index="1">bash</numIndex>
+									</numIndex>
+									<numIndex index="17" type="array">
+										<numIndex index="0">BASIC</numIndex>
+										<numIndex index="1">basic</numIndex>
+									</numIndex>
+									<numIndex index="18" type="array">
+										<numIndex index="0">Batch</numIndex>
+										<numIndex index="1">batch</numIndex>
+									</numIndex>
+									<numIndex index="19" type="array">
+										<numIndex index="0">Bison</numIndex>
+										<numIndex index="1">bison</numIndex>
+									</numIndex>
+									<numIndex index="20" type="array">
+										<numIndex index="0">Brainfuck</numIndex>
+										<numIndex index="1">brainfuck</numIndex>
+									</numIndex>
+									<numIndex index="21" type="array">
+										<numIndex index="0">Bro</numIndex>
+										<numIndex index="1">bro</numIndex>
+									</numIndex>
+									<numIndex index="22" type="array">
+										<numIndex index="0">C</numIndex>
+										<numIndex index="1">c</numIndex>
+									</numIndex>
+									<numIndex index="23" type="array">
+										<numIndex index="0">C#</numIndex>
+										<numIndex index="1">csharp</numIndex>
+									</numIndex>
+									<numIndex index="24" type="array">
+										<numIndex index="0">C++</numIndex>
+										<numIndex index="1">cpp</numIndex>
+									</numIndex>
+									<numIndex index="25" type="array">
+										<numIndex index="0">C-like</numIndex>
+										<numIndex index="1">clike</numIndex>
+									</numIndex>
+									<numIndex index="26" type="array">
+										<numIndex index="0">CoffeeScript</numIndex>
+										<numIndex index="1">coffeescript</numIndex>
+									</numIndex>
+									<numIndex index="27" type="array">
+										<numIndex index="0">Crystal</numIndex>
+										<numIndex index="1">crystal</numIndex>
+									</numIndex>
+									<numIndex index="28" type="array">
+										<numIndex index="0">CSS Extras</numIndex>
+										<numIndex index="1">css-extras</numIndex>
+									</numIndex>
+									<numIndex index="29" type="array">
+										<numIndex index="0">D</numIndex>
+										<numIndex index="1">d</numIndex>
+									</numIndex>
+									<numIndex index="30" type="array">
+										<numIndex index="0">Dart</numIndex>
+										<numIndex index="1">dart</numIndex>
+									</numIndex>
+									<numIndex index="31" type="array">
+										<numIndex index="0">Django/Jinja2</numIndex>
+										<numIndex index="1">django</numIndex>
+									</numIndex>
+									<numIndex index="32" type="array">
+										<numIndex index="0">Diff</numIndex>
+										<numIndex index="1">diff</numIndex>
+									</numIndex>
+									<numIndex index="33" type="array">
+										<numIndex index="0">Docker</numIndex>
+										<numIndex index="1">docker</numIndex>
+									</numIndex>
+									<numIndex index="34" type="array">
+										<numIndex index="0">Eiffel</numIndex>
+										<numIndex index="1">eiffel</numIndex>
+									</numIndex>
+									<numIndex index="35" type="array">
+										<numIndex index="0">Elixir</numIndex>
+										<numIndex index="1">elixir</numIndex>
+									</numIndex>
+									<numIndex index="36" type="array">
+										<numIndex index="0">Erlang</numIndex>
+										<numIndex index="1">erlang</numIndex>
+									</numIndex>
+									<numIndex index="37" type="array">
+										<numIndex index="0">F# </numIndex>
+										<numIndex index="1">fsharp</numIndex>
+									</numIndex>
+									<numIndex index="38" type="array">
+										<numIndex index="0">Fortran</numIndex>
+										<numIndex index="1">fortran</numIndex>
+									</numIndex>
+									<numIndex index="39" type="array">
+										<numIndex index="0">Gherkin</numIndex>
+										<numIndex index="1">gherkin</numIndex>
+									</numIndex>
+									<numIndex index="40" type="array">
+										<numIndex index="0">Git</numIndex>
+										<numIndex index="1">git</numIndex>
+									</numIndex>
+									<numIndex index="41" type="array">
+										<numIndex index="0">GLSL</numIndex>
+										<numIndex index="1">glsl</numIndex>
+									</numIndex>
+									<numIndex index="42" type="array">
+										<numIndex index="0">Go</numIndex>
+										<numIndex index="1">go</numIndex>
+									</numIndex>
+									<numIndex index="43" type="array">
+										<numIndex index="0">GraphQL</numIndex>
+										<numIndex index="1">graphql</numIndex>
+									</numIndex>
+									<numIndex index="44" type="array">
+										<numIndex index="0">Groovy</numIndex>
+										<numIndex index="1">groovy</numIndex>
+									</numIndex>
+									<numIndex index="45" type="array">
+										<numIndex index="0">Haml</numIndex>
+										<numIndex index="1">haml</numIndex>
+									</numIndex>
+									<numIndex index="46" type="array">
+										<numIndex index="0">Handlebars</numIndex>
+										<numIndex index="1">handlebars</numIndex>
+									</numIndex>
+									<numIndex index="47" type="array">
+										<numIndex index="0">Haskell</numIndex>
+										<numIndex index="1">haskell</numIndex>
+									</numIndex>
+									<numIndex index="48" type="array">
+										<numIndex index="0">Haxe</numIndex>
+										<numIndex index="1">haxe</numIndex>
+									</numIndex>
+									<numIndex index="49" type="array">
+										<numIndex index="0">HTTP</numIndex>
+										<numIndex index="1">http</numIndex>
+									</numIndex>
+									<numIndex index="50" type="array">
+										<numIndex index="0">Icon</numIndex>
+										<numIndex index="1">icon</numIndex>
+									</numIndex>
+									<numIndex index="51" type="array">
+										<numIndex index="0">Inform 7</numIndex>
+										<numIndex index="1">inform7</numIndex>
+									</numIndex>
+									<numIndex index="52" type="array">
+										<numIndex index="0">Ini</numIndex>
+										<numIndex index="1">ini</numIndex>
+									</numIndex>
+									<numIndex index="53" type="array">
+										<numIndex index="0">J</numIndex>
+										<numIndex index="1">j</numIndex>
+									</numIndex>
+									<numIndex index="54" type="array">
+										<numIndex index="0">Jade</numIndex>
+										<numIndex index="1">jade</numIndex>
+									</numIndex>
+									<numIndex index="55" type="array">
+										<numIndex index="0">Java</numIndex>
+										<numIndex index="1">java</numIndex>
+									</numIndex>
+									<numIndex index="56" type="array">
+										<numIndex index="0">Jolie</numIndex>
+										<numIndex index="1">jolie</numIndex>
+									</numIndex>
+									<numIndex index="57" type="array">
+										<numIndex index="0">JSON</numIndex>
+										<numIndex index="1">json</numIndex>
+									</numIndex>
+									<numIndex index="58" type="array">
+										<numIndex index="0">Julia</numIndex>
+										<numIndex index="1">julia</numIndex>
+									</numIndex>
+									<numIndex index="59" type="array">
+										<numIndex index="0">Keyman</numIndex>
+										<numIndex index="1">keyman</numIndex>
+									</numIndex>
+									<numIndex index="60" type="array">
+										<numIndex index="0">Kotlin</numIndex>
+										<numIndex index="1">kotlin</numIndex>
+									</numIndex>
+									<numIndex index="61" type="array">
+										<numIndex index="0">LaTeX</numIndex>
+										<numIndex index="1">latex</numIndex>
+									</numIndex>
+									<numIndex index="62" type="array">
+										<numIndex index="0">Less</numIndex>
+										<numIndex index="1">less</numIndex>
+									</numIndex>
+									<numIndex index="63" type="array">
+										<numIndex index="0">LiveScript</numIndex>
+										<numIndex index="1">livescript</numIndex>
+									</numIndex>
+									<numIndex index="64" type="array">
+										<numIndex index="0">LOLCODE</numIndex>
+										<numIndex index="1">lolcode</numIndex>
+									</numIndex>
+									<numIndex index="65" type="array">
+										<numIndex index="0">Lua</numIndex>
+										<numIndex index="1">lua</numIndex>
+									</numIndex>
+									<numIndex index="66" type="array">
+										<numIndex index="0">Makefile</numIndex>
+										<numIndex index="1">makefile</numIndex>
+									</numIndex>
+									<numIndex index="67" type="array">
+										<numIndex index="0">Markdown</numIndex>
+										<numIndex index="1">markdown</numIndex>
+									</numIndex>
+									<numIndex index="68" type="array">
+										<numIndex index="0">Markup</numIndex>
+										<numIndex index="1">markup</numIndex>
+									</numIndex>
+									<numIndex index="69" type="array">
+										<numIndex index="0">MATLAB</numIndex>
+										<numIndex index="1">matlab</numIndex>
+									</numIndex>
+									<numIndex index="70" type="array">
+										<numIndex index="0">MEL</numIndex>
+										<numIndex index="1">mel</numIndex>
+									</numIndex>
+									<numIndex index="71" type="array">
+										<numIndex index="0">Mizar</numIndex>
+										<numIndex index="1">mizar</numIndex>
+									</numIndex>
+									<numIndex index="72" type="array">
+										<numIndex index="0">Monkey</numIndex>
+										<numIndex index="1">monkey</numIndex>
+									</numIndex>
+									<numIndex index="73" type="array">
+										<numIndex index="0">NASM</numIndex>
+										<numIndex index="1">nasm</numIndex>
+									</numIndex>
+									<numIndex index="74" type="array">
+										<numIndex index="0">nginx</numIndex>
+										<numIndex index="1">nginx</numIndex>
+									</numIndex>
+									<numIndex index="75" type="array">
+										<numIndex index="0">Nim</numIndex>
+										<numIndex index="1">nim</numIndex>
+									</numIndex>
+									<numIndex index="76" type="array">
+										<numIndex index="0">Nix</numIndex>
+										<numIndex index="1">nix</numIndex>
+									</numIndex>
+									<numIndex index="77" type="array">
+										<numIndex index="0">NSIS</numIndex>
+										<numIndex index="1">nsis</numIndex>
+									</numIndex>
+									<numIndex index="78" type="array">
+										<numIndex index="0">Objective-C</numIndex>
+										<numIndex index="1">objectivec</numIndex>
+									</numIndex>
+									<numIndex index="79" type="array">
+										<numIndex index="0">OCaml</numIndex>
+										<numIndex index="1">ocaml</numIndex>
+									</numIndex>
+									<numIndex index="80" type="array">
+										<numIndex index="0">Oz</numIndex>
+										<numIndex index="1">oz</numIndex>
+									</numIndex>
+									<numIndex index="81" type="array">
+										<numIndex index="0">PARI/GP </numIndex>
+										<numIndex index="1">parigp</numIndex>
+									</numIndex>
+									<numIndex index="82" type="array">
+										<numIndex index="0">Parser</numIndex>
+										<numIndex index="1">parser</numIndex>
+									</numIndex>
+									<numIndex index="83" type="array">
+										<numIndex index="0">Pascal</numIndex>
+										<numIndex index="1">pascal</numIndex>
+									</numIndex>
+									<numIndex index="84" type="array">
+										<numIndex index="0">Perl</numIndex>
+										<numIndex index="1">perl</numIndex>
+									</numIndex>
+									<numIndex index="85" type="array">
+										<numIndex index="0">PHP Extras</numIndex>
+										<numIndex index="1">php-extras</numIndex>
+									</numIndex>
+									<numIndex index="86" type="array">
+										<numIndex index="0">PowerShell</numIndex>
+										<numIndex index="1">powershell</numIndex>
+									</numIndex>
+									<numIndex index="87" type="array">
+										<numIndex index="0">Processing</numIndex>
+										<numIndex index="1">processing</numIndex>
+									</numIndex>
+									<numIndex index="88" type="array">
+										<numIndex index="0">Prolog</numIndex>
+										<numIndex index="1">prolog</numIndex>
+									</numIndex>
+									<numIndex index="89" type="array">
+										<numIndex index="0">.properties</numIndex>
+										<numIndex index="1">properties</numIndex>
+									</numIndex>
+									<numIndex index="90" type="array">
+										<numIndex index="0">Protocol Buffers</numIndex>
+										<numIndex index="1">protobuf</numIndex>
+									</numIndex>
+									<numIndex index="91" type="array">
+										<numIndex index="0">Puppet</numIndex>
+										<numIndex index="1">puppet</numIndex>
+									</numIndex>
+									<numIndex index="92" type="array">
+										<numIndex index="0">Pure</numIndex>
+										<numIndex index="1">pure</numIndex>
+									</numIndex>
+									<numIndex index="93" type="array">
+										<numIndex index="0">Python</numIndex>
+										<numIndex index="1">python</numIndex>
+									</numIndex>
+									<numIndex index="94" type="array">
+										<numIndex index="0">Q</numIndex>
+										<numIndex index="1">q</numIndex>
+									</numIndex>
+									<numIndex index="95" type="array">
+										<numIndex index="0">Qore</numIndex>
+										<numIndex index="1">qore</numIndex>
+									</numIndex>
+									<numIndex index="96" type="array">
+										<numIndex index="0">R</numIndex>
+										<numIndex index="1">r</numIndex>
+									</numIndex>
+									<numIndex index="97" type="array">
+										<numIndex index="0">React JSX</numIndex>
+										<numIndex index="1">jsx</numIndex>
+									</numIndex>
+									<numIndex index="98" type="array">
+										<numIndex index="0">Reason</numIndex>
+										<numIndex index="1">reason</numIndex>
+									</numIndex>
+									<numIndex index="99" type="array">
+										<numIndex index="0">reST (reStructuredText)</numIndex>
+										<numIndex index="1">rest</numIndex>
+									</numIndex>
+									<numIndex index="100" type="array">
+										<numIndex index="0">Rip</numIndex>
+										<numIndex index="1">rip</numIndex>
+									</numIndex>
+									<numIndex index="101" type="array">
+										<numIndex index="0">Roboconf</numIndex>
+										<numIndex index="1">roboconf</numIndex>
+									</numIndex>
+									<numIndex index="102" type="array">
+										<numIndex index="0">Ruby</numIndex>
+										<numIndex index="1">ruby</numIndex>
+									</numIndex>
+									<numIndex index="103" type="array">
+										<numIndex index="0">Rust</numIndex>
+										<numIndex index="1">rust</numIndex>
+									</numIndex>
+									<numIndex index="104" type="array">
+										<numIndex index="0">SAS</numIndex>
+										<numIndex index="1">sas</numIndex>
+									</numIndex>
+									<numIndex index="105" type="array">
+										<numIndex index="0">Sass (Sass) </numIndex>
+										<numIndex index="1">sass</numIndex>
+									</numIndex>
+									<numIndex index="106" type="array">
+										<numIndex index="0">Sass (Scss)</numIndex>
+										<numIndex index="1">scss</numIndex>
+									</numIndex>
+									<numIndex index="107" type="array">
+										<numIndex index="0">Scala</numIndex>
+										<numIndex index="1">scala</numIndex>
+									</numIndex>
+									<numIndex index="108" type="array">
+										<numIndex index="0">Scheme</numIndex>
+										<numIndex index="1">scheme</numIndex>
+									</numIndex>
+									<numIndex index="109" type="array">
+										<numIndex index="0">Smalltalk</numIndex>
+										<numIndex index="1">smalltalk</numIndex>
+									</numIndex>
+									<numIndex index="110" type="array">
+										<numIndex index="0">Smarty</numIndex>
+										<numIndex index="1">smarty</numIndex>
+									</numIndex>
+									<numIndex index="111" type="array">
+										<numIndex index="0">Stylus</numIndex>
+										<numIndex index="1">stylus</numIndex>
+									</numIndex>
+									<numIndex index="112" type="array">
+										<numIndex index="0">Swift</numIndex>
+										<numIndex index="1">swift</numIndex>
+									</numIndex>
+									<numIndex index="113" type="array">
+										<numIndex index="0">Tcl</numIndex>
+										<numIndex index="1">tcl</numIndex>
+									</numIndex>
+									<numIndex index="114" type="array">
+										<numIndex index="0">Textile</numIndex>
+										<numIndex index="1">textile</numIndex>
+									</numIndex>
+									<numIndex index="115" type="array">
+										<numIndex index="0">Twig</numIndex>
+										<numIndex index="1">twig</numIndex>
+									</numIndex>
+									<numIndex index="116" type="array">
+										<numIndex index="0">TypeScript</numIndex>
+										<numIndex index="1">typescript</numIndex>
+									</numIndex>
+									<numIndex index="117" type="array">
+										<numIndex index="0">VB.Net</numIndex>
+										<numIndex index="1">vbnet</numIndex>
+									</numIndex>
+									<numIndex index="118" type="array">
+										<numIndex index="0">Verilog</numIndex>
+										<numIndex index="1">verilog</numIndex>
+									</numIndex>
+									<numIndex index="119" type="array">
+										<numIndex index="0">VHDL</numIndex>
+										<numIndex index="1">vhdl</numIndex>
+									</numIndex>
+									<numIndex index="120" type="array">
+										<numIndex index="0">vim</numIndex>
+										<numIndex index="1">vim</numIndex>
+									</numIndex>
+									<numIndex index="121" type="array">
+										<numIndex index="0">Wiki markup</numIndex>
+										<numIndex index="1">wiki</numIndex>
+									</numIndex>
+									<numIndex index="122" type="array">
+										<numIndex index="0">Xojo (REALbasic)</numIndex>
+										<numIndex index="1">xojo</numIndex>
+									</numIndex>
+									<numIndex index="123" type="array">
+										<numIndex index="0">YAML</numIndex>
+										<numIndex index="1">yaml</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.syntax>
+					
+					
+					<settings.snippet>
+					     <TCEforms>
+					          <label>LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:flexform.snippet</label>
+					          <config>
+					               <type>text</type>
+					               <cols>48</cols>
+					               <rows>20</rows>
+					          </config>
+					     </TCEforms>
+					</settings.snippet>
+					
+					
+					<settings.linenumbers>
+						<TCEforms>
+							<label>LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:flexform.linenumbers</label>
+							<config>
+								<type>check</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0"></numIndex>
+									</numIndex>
+								</items>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</settings.linenumbers>
+					
+					<settings.highlightlines>
+					     <TCEforms>
+					          <label>LLL:EXT:dd_snippets/Resources/Private/Language/locallang_db.xlf:flexform.highlightlines</label>
+					          <config>
+					               <type>input</type>
+					               <size>20</size>
+					               <max>30</max>
+					               <eval>trim</eval>
+					          </config>
+					     </TCEforms>
+					</settings.highlightlines>
+					
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>
