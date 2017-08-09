@@ -10,7 +10,7 @@ plugin.tx_ddsnippets_pi1 {
     }
     persistence {
         # cat=plugin.tx_ddsnippets_pi1//a; type=string; label=Default storage PID
-        storagePid =
+        #storagePid =
     }
     settings {
 	     # cat=plugin.tx_ddsnippets_pi1/file; type=string; label=Path to prism theme (override by "_dark, _coy" etc.)
